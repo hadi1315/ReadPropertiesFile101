@@ -48,7 +48,7 @@ public class PropertiesFileTest {
 
   @Test
   public void testPutProperty() {
-    String propertyName = "objectProperty";
+    String propertyName = "dynamicProperty";
 
     classUnderTest.putProperty(propertyName + "1", "value1");
     classUnderTest.putProperty(propertyName + "2", "value2");
